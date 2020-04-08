@@ -1,6 +1,5 @@
 package Sortowanie;
 import java.util.Arrays;
-
 public class Kubelkowe implements Sortable {
 
     public int[] sort(int[] array){
