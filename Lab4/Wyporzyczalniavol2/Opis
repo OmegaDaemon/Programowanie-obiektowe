@@ -1,0 +1,7 @@
+Stworzyłam dwie klasy nadrzędne( Utwór i dane ), w których przykładem kompozycji zawierają się funkcje get i set.
+Audiobooki, ebooki, filmy, książka, płyty muzyczne to klacy podrzędne, w których klacy nadrzędne zostały zadeklarowane jako obiekt.
+Tam są teraz wszystkie dane dotyczące autora itp
+Każda klasa nadal ma specjalne zmienne (ilość stron itp.).
+Jako, że Utwór jest obiektem, system wyporzyczania po kolei musiałam dodać do każdej z klas multimedialnych (wyp, zwrot i info)
+Użytkownik oraz jego dane zostały stworzone w podobny sposób.
+W klasie Start delaruje obiekty konkretnych klas, tworzę listę obiektór i dodaje na nią każdy obiekt, tak samo robię z Uzytkownikiem.
