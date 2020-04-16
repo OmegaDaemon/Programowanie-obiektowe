@@ -1,0 +1,29 @@
+Zadanie2:
+Aby wpisać ciąg znaków o wartości string, na samym początku
+tworzenia klasy muszę wpisać Steing[] args, w Javie args zawiera
+dostarczone argumenty wiersza polecenia jako tablicę obiektów String.
+Następnie program wyświetla komunikat do użytkownika, żeby podał
+ciąg znaków, które mają zmienić się na liczbę typu int. Program
+skanuje wybór użytkownika i przechowuje w pamięci jako String s.
+Następnie program skanuje ciąg znaków, który mu podaliśmy i próbuje
+zamienić typ. Jeśli próba zmiany się nie powiedzie Integer parseInt
+wygeneruje wyjątek NumberFormatException, który obsługuje pętla
+catch -> system wygeneruje komunikat, że nie wpisaliśmy coś innego zamiast liczb.
+
+Zadanie3:
+Na samym początku tworzę klasę String[] args. Program wyświetla
+komunikat, żeby użytownik podał ile liczb chce podać do listowania ->
+na tej podstawie program tworzy tablice o wielkości równej podanej liczbie.
+Program przechowuje dane w postaci int dla liczby, którą podamy oraz
+dla liczb do listingu, posiada też boolean dla ilości powtórzeń.
+Program wyświetla komunikat mówiący użytkownikowi ile liczb ma postać.
+Program wykona pętlę for dla każdego elementu z tablicy, zaczynając
+od 1 program ma pobrać od użytkownika jedną liczbę -> zaczyna się listing.
+Program wyświetla więc „1:” i czeka na liczbę spisaną przez użytkownika.
+Pętla catch wychwytuje na tym etapie czy użytkownik przypadkiem nie wpisuje
+liter i wyświetli określony komunikat jeśli tak jest. Następnie program
+pyta się użytkownika, którą liczbę z podanej listy chciałby wyświetlić.
+Program po raz kolejny ma pobrać od użytkownika liczbę, tym razem określającą
+numer z listy. Jeśli użytkownik wybierze wyświetli ją i zakończy działanie.
+Jeśli użytkownik spróbuje wybrać literę bądź indeks z listy, który na niej
+nie występuje, program wyrzuci komunikat błędu i będzie czekał aż wybierzemy poprawnie.
