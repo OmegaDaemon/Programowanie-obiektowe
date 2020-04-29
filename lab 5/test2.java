@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class test2 {
 
-        private int[] sekwencja = new int[] {3, 2, 3, 7,1,2,3,8};
+        private int[] sekwencja = new int[] {1,2,3};
         private zad2 test2 = new zad2(sekwencja);
 
         @Test
