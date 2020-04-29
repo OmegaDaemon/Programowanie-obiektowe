@@ -1,0 +1,23 @@
+Zad1
+Test ma za zadanie sprawdzenie dwóch rzeczy:
+a)czy obydwie podane mu liczby spełniają warunek >100 w przypadku tych liczb, które są
+zaprezentowanie ten test nie został speniony. 
+b) czy jedna z tych liczb nie spełnia podanego warunku. W wyniku zaprezentowanych liczb akurat obydwie 
+nie spełniają warunku, a więc wynik tego testu będzie pozytywny.
+
+Zad2
+Test ma podaną sekwencję, której obecność ma sprawdzać. Testy będą bazowały na metodzie z zad2.
+W treści testów podaję, że test2 ma wziąć metodę sprawdzamsekwencję i przepuścić przez nią podane elementy 
+nowej tablicy. Metoda stworzona w zad2 sprawdza po kolei każdy element w poszukiwaniu sekwencji podanej w teście.
+Pierwszy test spełnia podany warunek, 2 i 3 już nie 
+
+Zad5
+Test ma sprawdzić czy program zwróci połowę długości podanego Stringa.
+Int a służy do zapisania wartości tej połowy,następnie test 1 i 2 sprawdzi czy liczba spełnia podane warunki,
+test 3 natomiast będzie równać się temu jakiej liczby się spodziewam. 
+Wszystkie testy pokażą wynik pozytywny.
+
+Zad6
+Podobnie jak w zadaniu 2, test6 korzysta z metody napisanej w zad6. Test ma narzuconą z góry sekwencję, 
+ma następnie ją przepuścić przez wskazaną mu metodę i porównać czy wynik tej metody równa się z tym,
+czego się spodziewamy. Test pokaże wynik pozytywny.
