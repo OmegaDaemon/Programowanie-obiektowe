@@ -1,3 +1,6 @@
+JSON jest spodobem przechowywania i przekazywania danych w postaci zwykłego tekstu. Korzysta on z JavaScripttu.
+Aby JSON zadziałał wymagane jest aby wartości były umieszczone w formie łańcuchów znaków w "".
+
 Zadanie 1 
 Zmieniono nazwę endpointa z greeting na bye
 "@RequestMapping(path="/bye""
