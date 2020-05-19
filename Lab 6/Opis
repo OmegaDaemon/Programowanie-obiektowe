@@ -1,0 +1,23 @@
+Zadanie 1 
+Zmieniono nazwę endpointa z greeting na bye
+"@RequestMapping(path="/bye""
+
+Zadanie 2 
+Dodano nowy endpoint
+"    @RequestMapping(path = "/Użytkownik") i jest ono połączone z zadaniem 6 
+
+
+Zadanie 3 i 4
+ return new Greetings(counter.incrementAndGet(), String.format(template, wiek,imie,kto));
+ Zostały wprowadzne pewne zmienne, które po odpaleniu run wyświetlają się w formie:
+ "Hello!Twoje id to:1234. Twój wiek to: 21. Masz na imie: Paula! Jesteś kobietą. "
+Poprzez użycie @requestParam i zadeklarowanie zmiennych
+
+Zadanie 5 
+Nie ma imienia męskiego które kończy się na "a". Pętla if sprawdza więc jaka jest ostatnia litera w imieniu i wyświetla
+określony rezultat. Po odpaleniu run określony rezultat wyświetla się na stronie.
+
+Zadanie 6 
+Jest to nowy endpoint, który porówniuje czy podane przez naz imię ( String -> wzór) jest tym czego się spodziewamy.
+W tym przypadku program oczekuje, że wpisany String będzie zawierał ciąg "Paula" i wyda przypisaną mu komendę,
+jeżeli to nie ten ciąg znaków, zwróci drugi komunikat.
